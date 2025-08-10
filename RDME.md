@@ -28,3 +28,7 @@ _: Return from a function.
 "cond": Start a conditional block that executes if the current cell is non-zero.
 `: End a conditional block.
 !: Execute a syscall using the number and arguments from the tape.
+
+Pre proceser:
+%inc <file.bf>:include a module/header
+%grd <file>:include guard 
