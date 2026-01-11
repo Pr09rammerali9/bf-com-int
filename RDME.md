@@ -1,5 +1,5 @@
 
-an brainfuck interpreter + brainfuck llvm compiler in C++
+an brainfuck interpreter + brainfuck llvm compiler in C++(Both are Posix Only) 
 Usage:
 ./bfint <file.bf>
 compiler:
@@ -32,4 +32,7 @@ _: Return from a function.
 
 Pre proceser:
 %inc <file.bf>:include a module/header
-%grd <file>:include guard 
+%grd <file>:include guard
+Updated added:
+@ for derefrence
+^ for extern of C functions
